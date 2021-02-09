@@ -1,8 +1,8 @@
-const sentence = "hello there from lighthouse labs";
+// const sentence = "hello there from lighthouse labs";
 
 function callback(string) {
   let delay = 0;
-  for (const char of sentence) {
+  for (const char of string) {
     setTimeout(() => {
       process.stdout.write(char);
     }, (delay += 50));
